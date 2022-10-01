@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     int getRandomNumber(int min, int max){
+        System.out.print("text");
         return (int) (Math.random() * (max - min) + min);
     }
 
